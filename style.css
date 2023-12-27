@@ -189,7 +189,7 @@ section .title::after{
     font-family: 'Ubuntu', sans-serif;
     align-items: center;
     padding: 0px;
-   
+   position: relative;
 }
 .home .max-width{
   width: 100%;
@@ -894,6 +894,9 @@ flex-wrap: wrap;
     color: crimson;
 
   }
+  .home-1 .left-photo img{
+    display: none;
+  }
 /* responsive media query start */
 @media (max-width: 1104px) {
     .about .about-content .left img{
@@ -1033,6 +1036,13 @@ flex-wrap: wrap;
     .left-photo{
         background: url(images/mobile=left.jpg) center;
     }
+    .home-1 .left-photo img{
+        position: absolute;
+        top: 5px;
+        left: 6px;
+        width: 75px;
+        display: block;
+      }
 }
 
 @media (max-width: 500px) {
