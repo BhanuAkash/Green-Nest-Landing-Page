@@ -1034,7 +1034,7 @@ flex-wrap: wrap;
         margin-top: 50px;
     }
     .left-photo{
-        background: url(images/mobile=left.jpg) center;
+        /* background: url(images/mobile=left.jpg) center; */
     }
     .home-1 .left-photo img{
         position: absolute;
